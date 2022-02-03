@@ -1,0 +1,631 @@
+
+/* General */ 
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+  
+}
+
+
+body {
+    /*font-family: "Lato", sans-serif;*/
+    font-family: 'Urbanist', sans-serif;
+}
+
+@media only screen and (max-width: 1400px) {
+    html {
+      font-size: 50%;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    html {
+      font-size: 45%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    html {
+      font-size: 38%;
+    }
+    .header-text-holder h1{
+        font-size: 6rem !important;   
+        letter-spacing: 1rem !important;
+        
+        
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    
+    .header-text-holder{
+            margin-top: 25%;
+        }
+    
+  }
+  
+  h3{
+      line-height: 1.7 !important;
+  }
+  /* Nav */
+  .ms-auto {
+    margin-left: auto!important;
+}
+.nav-logo{
+    height: 7rem !important;
+    width: auto !important;
+  }
+  .navbar img{
+      width: 30rem;
+      height: 5rem;
+      
+  }
+  .my_nav{
+      transition: all 1s;
+      font-size: 1.9rem;
+  }
+  .my_nav a{
+      margin-right: 4rem;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+  }
+  .navbar-nav li a:link,
+  .navbar-nav li a:visited
+  {
+      
+      color: #c6c6c6 !important;
+      padding-right: 0.5rem;
+  }
+  .navbar-nav li a:hover,
+  .navbar-nav li a:active
+  {
+      color: #ffffff !important;
+      text-shadow: 0.1px 0.1px #ffffff;
+  }
+  
+  .dark{
+      background-color: rgb(6, 36, 6);
+    /*background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(8,62,11,1) 15%, rgba(8,62,11,1) 50%, rgba(8,62,11,1) 85%, rgba(0,0,0,1) 100%);*/
+      box-shadow: 0 2px 2px #74747483;
+  }
+  .nav-btn{
+      font-size: 3rem;
+      
+  
+  }
+
+  /* Header */
+.header-text-holder{
+    text-align: center;
+    color: rgb(238, 238, 238);
+    padding: 5rem;  
+    font-family: 'Urbanist', sans-serif;
+}
+.header-text-holder h1{
+    font-size: 7.5rem;   
+    font-weight: 400;
+    letter-spacing: 1.3rem;
+    
+    
+}
+.header-text-holder h6{
+    margin-top: 6rem;
+    font-size: 4rem;   
+    font-weight: 400;
+    letter-spacing: 0.65rem;
+    color: rgba(255, 255, 255, 0.411);
+}
+.header-text-holder p{
+    font-size: 2rem;
+}
+.main-header{
+    background-image: linear-gradient(to bottom, rgba(0, 10, 2, 0.9), rgba(0, 0, 0, 0.8)), url('yonca_images/drone1.JPG');
+    background-size: cover;
+    padding-top: 10%;
+   
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.subs-holder{
+    text-align: center;
+    
+}
+/*BTN*/
+.my-btn:link, 
+.my-btn:visited {
+    background-color: rgb(156, 156, 156);
+    text-decoration: none;
+    padding: 2rem 4.5rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative;
+    color: black;
+    box-shadow: 0 1rem 2rem rgb(0, 0, 0);
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 1.7rem;
+}
+.my-btn:hover{
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(255, 255, 255, 0.5);
+}
+.my-btn:active{
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.5);
+    background-color: rgb(156, 156, 156);
+    color: black;
+}
+/*About */
+.about-us{
+    height: 55vh;
+    background-color:black;
+    /*background-image: url(images/tezcan_svg.png);*/
+   
+   /* background-attachment: fixed;*/
+  
+}
+
+.about-text-holder{
+    text-align: center;
+    color: rgb(238, 238, 238);
+    font-family: 'Urbanist', sans-serif;
+    
+    
+     
+}
+.about-text-holder h1{
+    
+    
+    letter-spacing: 0.5rem;
+    
+    font-size: 4rem;
+    font-weight: 500;
+}
+.about-text-holder h3{
+    margin-top: 2rem;
+    font-size: 2rem;
+    word-spacing: 2px;
+    font-weight: 300;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Video Section */
+.video-section{
+    height: 80vh;
+    background-color: black;  
+    overflow: hidden;
+    padding-bottom: 50vh;
+}
+#myVideo {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+  }
+ 
+  /* Mission Section */
+ .mission{
+     height: 70vh;
+     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url('yonca_images/misyon.jpeg');
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+    
+ }
+
+.mission-l{
+    text-align: center;
+    
+
+}
+.mission-content{
+    color: white;
+    font-family: 'Urbanist', sans-serif !important;
+   
+    padding: 5vh;
+    border-radius: 5rem;
+    
+}
+.mission-content h1{
+    letter-spacing: 0.5rem;   
+    font-size: 4rem;
+    font-weight: 500;
+}
+.mission-content h3{
+margin-top: 2rem;
+    font-size: 3rem;
+    word-spacing: 2px;
+    font-weight: 300;
+   
+}
+/*   */ 
+
+.count{
+    height: 50vh;
+    background-color: white;
+}
+
+.count-content{
+height: 30rem;
+width: 30rem;
+border-radius: 91px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  10px 10px 20px #666666,
+             -10px -10px 20px #ffffff;
+}
+
+.a{
+    height: 50vh;
+    background-color: black;
+}
+
+/* Slider  */ 
+.c{
+    background-color: black;
+}
+
+.carousel{
+    margin: 10rem 5rem;
+    margin-bottom: 0;
+}
+.carousel-item{
+height: 80vh;
+
+}
+.first{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.80)),url(yonca_images/images3/IMG_8268.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.second{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 1)),url(yonca_images/images3/IMG_8270.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+.third{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 1)),url(yonca_images/images2/IMG_8285.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+
+.slide-head{
+    text-align: center;
+
+}
+.slide-head h1{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 4rem ;
+    color: white;
+    margin-top: 10rem;
+}
+.carousel-caption h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 4rem ;
+    color: white;
+    
+}
+.carousel-caption p{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem ;
+    color: white;
+    margin-bottom: 5rem;
+    line-height: 1.4;
+
+}
+.carousel-control-prev-icon,
+    .carousel-control-next-icon{
+      height: 5rem !important;
+      width: 5rem !important;
+      background-color: black !important;
+      border-radius: 50rem !important;
+     
+    }
+.b{
+    height: 15vh;
+    background-color: black;
+}
+
+    /*Animals */
+
+    .animals2{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.10)),url(yonca_images/yonca_animals.jpg);;
+    background-position: center;
+    background-size: cover;
+    }
+    .animals{
+        
+      padding: 0 !important;
+    }
+.animals-content{
+   
+    padding-bottom: 20rem;
+    padding-top: 20rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+   
+
+}
+.animal-img-holder{
+    background-image: url(yonca_images/images2/IMG_8283.jpg);
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.animals-content h1{
+   
+    letter-spacing: 0.5rem;
+    color: white;
+     font-size: 4rem;
+      font-family: 'Lato', sans-serif;
+      font-weight: 500;
+}
+.animals-content h3{
+    line-height: 1.7 !important;
+    margin-top: 2rem;
+    color: white;
+    font-size: 2rem;
+     font-family: 'Lato', sans-serif;
+     font-weight: 300;
+}
+
+.line{
+    height: 0.2rem;
+    margin-top: 1rem;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(8,62,11,1) 15%, rgba(21,116,12,1) 50%, rgba(8,62,11,1) 85%, rgba(0,0,0,1) 100%) !important;
+}
+
+/*counter */
+
+.counter{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url(yonca_images/drone3.JPG);
+    background-position: center;
+    background-size: cover;
+    padding-top: 5rem;
+    background-attachment: fixed;
+}
+.counter-content{
+    
+    margin: 3rem;
+    text-align: center;
+    height: 25rem;
+    
+    padding: 1rem;
+    border-radius: 50px;
+    background: #e0e0e0d2;
+    box-shadow:  23px 23px 50px #5a5a5a,
+             -23px -23px 50px #ffffff;
+    
+}
+
+ion-icon {
+    font-size: 6rem;
+  }
+
+  .counter h1{
+      font-size: 6rem;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+  }
+  .counter h5{
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+/*Agri*/
+.agri{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.60)),url(yonca_images/tarimsal.jpeg);;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Panel */
+.panel{
+    height: 70vh;
+    background-image: url(yonca_images/drone5.JPG);
+    background-position: center;
+    background-size: cover;
+
+}
+.bg{
+    background: transparent !important;
+}
+.panel-content{
+   
+    padding: 5rem;
+    border-radius: 50px;
+    background: #e0e0e0d7;
+    box-shadow:  35px 35px 70px #000000,
+    -35px -35px 70px #000000;
+}
+.panel-content h3{
+ line-height: 1.7;
+ color: black;
+ font-weight: 700;
+}
+.panel-content h1{
+    color: black;
+}
+/*Ari*/
+.ari-content{
+    padding: 5rem;
+    text-align: center;
+    
+    display: flex;
+}
+.ari-content h4{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 700;
+    color: black;
+}
+
+.ari-row img{
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: -5rem;
+
+}
+/* Doc */
+.doc{
+    margin-top: 5rem;
+}
+.doc-row{
+    text-align: center;
+}
+.doc-row a{
+    margin-top: 3rem;
+    display: block !important;
+}
+.doc-row a:last-child{
+    margin-bottom: 3rem;
+    
+}
+/* Map */
+
+.map{
+    width: 100%;
+    height: 50rem;
+}
+.map-section{
+    border-top: 2px solid black;
+    padding: 5rem;
+}
+.map-content{
+    text-align: center;
+}
+.map-content h3{
+    padding-top: 2rem;
+}
+
+/* Footer */
+.footer{
+   /* height: 50vh;*/
+    background-color: black;
+    
+  }
+  
+  .footer h3 {
+    text-align: center;
+  }
+  
+  .footer-nav{
+    list-style: none;
+   /* float: left;
+    margin-left: 10rem;*/
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .footer a{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    font-weight: 700;
+  }
+  
+  .social-links{
+    list-style: none;
+    /*float: right;
+    margin-right: 10rem;*/
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .footer-nav li,
+  .social-links li{
+      
+      display: inline-block;
+      margin-right: 2rem;
+      
+  }
+  .footer-nav li:last-child,
+  .social-links li:last-child
+  {
+      margin-right: 0;
+  
+  }
+  .footer-nav li a:link, 
+  .footer-nav li a:visited,
+  .social-links li a:link,
+  .social-links li a:visited{
+      text-decoration: none;
+      
+      
+  }
+  .footer-nav li a:link, 
+  .footer-nav li a:visited,
+  .social-links li a:link,
+  .social-links li a:visited{
+      text-decoration: none;
+      border: 0;
+      color: #cecece;
+      transition: color 0.35s ;
+      
+  }
+  
+  .footer-nav li z:hover, 
+  .footer-nav li z:active
+  {
+      color: red;
+     
+  }
+  .social-links li z:link,
+  .social-links li z:visited{
+      
+      font-size: 180%;
+      
+  }
+  #face:hover{
+      color:#3b5998;
+      
+  }#twitter:hover{
+      color:#55acee;
+      
+  }#insta:hover{
+      color:#e95950;
+      
+  }#google:hover{
+      color:#dd4b39;
+      
+  }
+  
+  .footer h3{
+    margin-top: 5rem;
+    color: #c6c6c6;
+    font-size: 1.5rem;
+  }
+  .footer h4{
+    color: #c6c6c673;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  .ahmet a:link,
+.ahmet a:visited{
+    
+    text-decoration: none;
+    border: 0;
+    color:#888;
+    transition: color 0.35s ;
+    
+}
+.ahmet a:hover,
+.ahmet a:active{
+    color:#ff0000;
+    
+}
+.logo2{
+    text-align: center;
+}
+.logo-f{
+    padding-top: 1rem;
+    height: 10rem !important;
+}
