@@ -1,5 +1,5 @@
-# freelance
-The websites that ı made for companies.
+# Freelance
+The websites that I made for companies using basic HTML and CSS.
 
-http://www.tezcanmakina.com.tr/
-https://www.xn--yoncahayvanclk-hgcb.com/
+- http://www.tezcanmakina.com.tr/
+- https://www.xn--yoncahayvanclk-hgcb.com/
